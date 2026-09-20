@@ -1,0 +1,89 @@
+2026-09-20 10:24:37.620 [info] [main] Log level: Info
+2026-09-20 10:24:37.620 [info] [main] Validating found git in: "git"
+2026-09-20 10:24:37.620 [info] [main] Using git "2.25.1" from "git"
+2026-09-20 10:24:37.620 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [6ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.620 [info] > git rev-parse --show-toplevel [9ms]
+2026-09-20 10:24:37.620 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.627 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-20 10:24:37.628 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.634 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-20 10:24:37.634 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.641 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-20 10:24:37.641 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:37.642 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-20 10:24:38.336 [info] > git rev-parse --show-toplevel [620ms]
+2026-09-20 10:24:38.336 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:38.356 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-20 10:24:38.356 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:24:40.219 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-20 10:24:40.219 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-20 10:26:28.798 [info] > git rev-parse --show-toplevel [10ms]
+2026-09-20 10:26:28.818 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [16ms]
+2026-09-20 10:26:28.827 [info] [Model][openRepository] Opened repository (path): /voc/work/AI_Learning_IITM
+2026-09-20 10:26:28.827 [info] [Model][openRepository] Opened repository (real path): /voc/work/AI_Learning_IITM
+2026-09-20 10:26:28.827 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-20 10:26:28.846 [info] > git config --get commit.template [9ms]
+2026-09-20 10:26:28.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2026-09-20 10:26:28.849 [warning] [Git][getBranch] No such branch: master
+2026-09-20 10:26:28.872 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2026-09-20 10:26:28.888 [info] > git status -z -uall [36ms]
+2026-09-20 10:26:28.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2026-09-20 10:26:28.927 [warning] [Git][getBranch] No such branch: master
+2026-09-20 10:26:28.928 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-09-20 10:26:28.935 [info] > git config --get commit.template [9ms]
+2026-09-20 10:26:28.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2026-09-20 10:26:28.949 [warning] [Git][getBranch] No such branch: master
+2026-09-20 10:26:28.971 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-09-20 10:26:28.976 [info] > git status -z -uall [22ms]
+2026-09-20 10:26:29.609 [info] > git check-ignore -v -z --stdin [22ms]
+2026-09-20 10:26:32.017 [info] > git config --get commit.template [12ms]
+2026-09-20 10:26:32.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2026-09-20 10:26:32.048 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/voc/work/AI_Learning_IITM/.git/refs/remotes/origin/master'
+2026-09-20 10:26:32.065 [info] > git rev-parse refs/remotes/origin/master [17ms]
+2026-09-20 10:26:32.102 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2026-09-20 10:26:32.228 [info] > git status -z -uall [158ms]
+2026-09-20 10:26:32.258 [info] > git merge-base refs/heads/master refs/remotes/origin/master [21ms]
+2026-09-20 10:26:32.290 [info] > git diff --name-status -z --diff-filter=ADMR 974da1747d71f23531a993992fed90411278a84c...refs/remotes/origin/master [29ms]
+2026-09-20 10:27:25.736 [info] > git config --get commit.template [9ms]
+2026-09-20 10:27:25.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2026-09-20 10:27:25.761 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/voc/work/AI_Learning_IITM/.git/refs/remotes/origin/master'
+2026-09-20 10:27:25.772 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2026-09-20 10:27:25.802 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2026-09-20 10:27:26.426 [info] > git status -z -uall [651ms]
+2026-09-20 10:28:27.224 [info] > git config --get commit.template [13ms]
+2026-09-20 10:28:27.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2026-09-20 10:28:27.253 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/voc/work/AI_Learning_IITM/.git/refs/remotes/origin/master'
+2026-09-20 10:28:27.264 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2026-09-20 10:28:27.294 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2026-09-20 10:28:27.445 [info] > git status -z -uall [179ms]

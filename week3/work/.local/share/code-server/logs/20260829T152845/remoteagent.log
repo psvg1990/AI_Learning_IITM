@@ -1,0 +1,12 @@
+2026-08-29 15:28:45.367 [info] 
+
+
+
+
+2026-08-29 15:28:45.386 [info] Extension host agent started.
+2026-08-29 15:28:45.398 [info] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+2026-08-29 15:28:45.412 [info] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+2026-08-29 15:28:51.188 [info] [172.16.21.193][003c52c9][ManagementConnection] New connection established.
+2026-08-29 15:28:54.055 [info] [172.16.21.193][f8b0daa7][ExtensionHostConnection] New connection established.
+2026-08-29 15:28:54.059 [info] [172.16.21.193][f8b0daa7][ExtensionHostConnection] <94> Launched Extension Host Process.
+2026-08-29 16:48:19.267 [info] [172.16.21.193][003c52c9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
